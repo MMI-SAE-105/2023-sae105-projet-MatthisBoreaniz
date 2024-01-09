@@ -1,0 +1,41 @@
+.titrePrincipal {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.chapo {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.infos__publication {
+    font-size: 0.8rem;
+    margin-bottom: 1em;
+    color:grey;
+}
+
+.lecture {
+    display: flex;
+    font-size: 0.8rem;
+    margin-bottom: 1em;
+    color:grey;
+}
+
+.lecture__logo {
+    margin-right: 0.5em;
+}
+
+.intertitre {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.article__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 100%;
+}
