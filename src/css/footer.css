@@ -1,0 +1,48 @@
+.footer {
+    background-color: black;
+    padding: 10px;
+}
+
+.footer__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__phrasemmi {
+    color: #D9B7B7;
+
+}  
+
+.footer__autres {
+    color: #D9B7B7;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer__message {
+    color: #D9B7B7;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer__logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.footer__reseaux {
+   color: white;
+    text-align: center;
+}
+
+.footer__logommi {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
