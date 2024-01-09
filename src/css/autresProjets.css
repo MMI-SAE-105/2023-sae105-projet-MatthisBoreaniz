@@ -4,11 +4,11 @@ box-sizing: border-box;
     
     
     }
-    img {
+    .imgage__carroussel {
       
       width:100%;
-      
-      height: auto;
+      height: 100%;
+      margin: 5px;
     }
     .carrousel_parent-ecrans {
       
@@ -39,17 +39,18 @@ box-sizing: border-box;
         position: absolute;
         top: 50%;
         top: calc(
-          min(500px, 100vw) / 16 * 9 / 2 + 10rem
+          min(500px, 100vw) / 16 * 9 / 2 + 21.5rem
         ); /* centre verticalement ~50% vertical */
         transform: translateY(-50%); /* methode du point mort */
         width: 2rem;
         height: 2rem;
-        background: rgba(0,0,0,0.5);
+        background: rgba(255, 0, 0, 0.8);
         border-radius: 50%;
         border: none;
         display: grid;
         place-content: center;
         color: #fff;
+        margin: 10px;
       }
       
       .carrousel_btn-avant {
@@ -67,5 +68,6 @@ box-sizing: border-box;
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-weight: bold;
+        font-size: small;
         
       }
