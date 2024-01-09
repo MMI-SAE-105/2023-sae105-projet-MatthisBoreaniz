@@ -23,3 +23,17 @@
     text-align: center;
     
 }
+
+.glossaire__title {
+text-decoration: underline;
+}
+
+.glossaire__mot {
+   color: red;
+   font-weight: bold;
+}
+
+.lien__mail {
+    color: blue;
+    text-decoration: none;
+}
