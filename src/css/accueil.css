@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'PoliceScarface';
+    src: url(/src/fonts/OPTILency.otf);
+}
+
+.accueil__replique {
+    font-family: 'PoliceScarface';
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}   
+
+.accueil__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
