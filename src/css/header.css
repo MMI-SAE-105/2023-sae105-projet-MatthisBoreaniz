@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.main {
+    margin: 10px;
+}
+
 .header {
     background-color: black;
     width: 100%;
