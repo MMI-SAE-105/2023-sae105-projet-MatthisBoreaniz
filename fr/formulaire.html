@@ -7,22 +7,44 @@
     <link rel="stylesheet" href="/src/css/styles.css">
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>
-<body>
+<body class="body">
+    <header class="header">
+        <img  class="header__logo" src="/public/img/SCARINFO.svg" alt="logo site">
+        <section class="header__section">
+        <img class="header__drapeau" src="/public/img/Drapeau GB.svg" alt="drapeau gb">
+        <img class="header__menu" src="/public/img/menu (1).svg" alt="logo menu">
+       </section>
+       </header>
 
-<section>
-    <span>contact</span>
-        <section>
-            <span>Nom</span>
-            <span>Prenom</span>
+<section class="formulaire ">
+    <span class="formulaire__contact">contact</span>
+        <section class="formulaire__id">
+            <span  class="formulaire__champ">Nom</span>
+            <span class="formulaire__champ">Prenom</span>
         </section>
-    <span>Adresse Mail</span>
-    <span>Message</span>
-    <button>envoyer</button>
-<span>Tous les éléments marqués du symbole * doivent être remplis</span>
+    <span class="formulaire__mail">Adresse Mail</span>
+    <span class="formulaire__message">Message</span>
+    <button class="formulaire__btn">envoyer</button>
+<span class="formulaire__consignes">Tous les éléments marqués du symbole * doivent être remplis</span>
 </section>
 
 
 <p>Matthis Boreaniz MMI1/B1 :<a class="lien__mail" href="https://www.google.com/intl/fr/gmail/about/"> matthis.boreaniz@edu.univ-fcomte.fr</a></p>
-
+<footer class="footer"> 
+    <img  class="footer__logo" src="/public/img/SCARINFO.svg" alt="logo">
+    <p class="footer__reseaux">Réseaux</p>
+    <section class="footer__logos">
+    <img src="/public/img/X logo.svg" alt="X logo">
+    <img src="/public/img/Discord LOGO.svg" alt="Discord logo">
+    <img src="/public/img/Insta Logo.svg" alt="Insta logo">
+    </section>
+    <p class="footer__autres">Autre Projets</p>
+    <p class="footer__message">Laisser un message</p>
+   
+    <p class="footer__phrasemmi">Projet réalisé dans le cadre d’un exercice pédagogique
+        au département MMI de Montbéliard </p>
+    <img  class="footer__logommi"src="/public/img/logo mmi.svg" alt="logo mmi">
+   
+</footer>
 </body>
 </html>
