@@ -1,0 +1,33 @@
+.erreur__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.erreur__404 {
+    font-family: 'PoliceScarface';
+    font-size: 10rem;
+    color: red;
+}
+
+.erreur__text {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.erreur__lien {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
