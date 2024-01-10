@@ -28,9 +28,10 @@
 text-decoration: underline;
 }
 
-.glossaire__mot {
+.glossaire__mot  {
    color: red;
    font-weight: bold;
+   text-decoration: none;
 }
 
 .lien__mail {
