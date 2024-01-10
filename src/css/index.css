@@ -1,0 +1,25 @@
+.lang__title {
+    text-decoration: none;
+    color: red;
+    font-family: 'PoliceScarface';
+    text-align: center;
+    font-size: 2rem;
+}
+
+.lang__section  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.lang__lien {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
