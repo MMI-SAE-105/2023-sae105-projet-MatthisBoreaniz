@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article replique</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body x-data="{ menuIsOpen: false }" x-bind:class="{ 'no-scroll': menuIsOpen }" class="body">
+    <header class="header">
+        <a class="header__logo" href="/fr/index.html"><img src="/public/img/SCARINFO.svg" alt="logo du site "></a>
+        <section class="header__search">
+            <button arial-controls="maiNav" 
+      @click="menuIsOpen = ! menuIsOpen" 
+      class="header__menuBtn"
+      ><img src="/public/img/menu (1).svg" alt="logo du menu "></button>
+      <nav id="mainNav" 
+      x-show="menuIsOpen" 
+      x-transition.duration.800ms
+
+      class="menu"
+      >
+    <section class="section__menu">
+  <h2  class="section__menu-title">à propos</h2>
+  <ul class="section__menu-list">
+    <li  class="section__menu-item"><a href="/fr/film.html">Tony Montana au cinéma</a></li>
+    <li class="section__menu-item"><a href="/fr/real.html">De Palma et le cinéma</a></li>
+    <li class="section__menu-item"><a href="/fr/replique.html">“J’ai des mains faites pour l’or”</a></li>
+    <li class="section__menu-item"><a href="/fr/musique.html">Scarface en musique</a></li>
+    <li class="section__menu-item"><a href="/fr/livre.html">L’origine de Scarface</a></li>
+  </ul>
+
+  <h2 class="section__menu-title">mais aussi</h2>
+
+  <ul class="section__menu-list">
+    <li  class="section__menu-item"><a href="/fr/filmscommun.html">La filmographie de De Palma</a></li>
+    <li class="section__menu-item"><a href="/fr/livrescommuns.html">De la littérature en plus</a></li>
+    <li class="section__menu-item"><a href="/fr/apropos.html">À Propos de moi</a></li>
+  </ul>
+    
+
+
+    </section>
+      </nav>
+    </header>
+       <main class="main">
+        <h1 class="titrePrincipal">”J’ai des mains faites pour l’or mais elles sont dans la merde.”</h1>
+        <h2 class="chapo">Cette phrase est prononcée par le personnage principal au début du film lorsqu’il travail dans un stand de nourriture</h2>
+       
+        <figure>
+            <img class="imagePrincipale" src="/public/img/Scene de la réplique.png" alt="image replique scene">
+        </figure>
+        <p>Affiche de couverture du film “Scarface” de Brian de Palma(1983)</p>
+        
+        <span class="infos__publication">Publié par Matthis Boreaniz (Montbéliard) le 24/10/2023</span>
+       
+        <section class="lecture">
+            <img class="lecture__logo" src="/public/img/Logo pendule.svg" alt="logo pendule">
+            <p class="lecture temps">Lecture : 5 minutes</p>
+        </section>
+    <p>
+        La célèbre réplique du film "Scarface" de Brian De Palma, "J'ai des mains faites pour l'or mais elles sont dans la merde", incarne l'essence même de la tragédie du protagoniste, Tony Montana. Cette citation emblématique, prononcée par Al Pacino, capture l'ironie amère de la situation de Tony, révélant la dualité poignante entre ses aspirations grandioses et sa réalité impitoyable.
+    </p>
+
+    <p>Lorsque Tony prononce ces mots, il exprime son profond désir d'atteindre le sommet de la réussite et de la prospérité, de se hisser au-dessus de sa condition actuelle et de réaliser ses rêves les plus fous. Cependant, la dure réalité de son implication dans le monde du crime le confronte à la dure vérité : malgré ses ambitions débordantes, il est piégé dans un cercle vicieux de violence, de trahison et de désespoir.</p>
+    
+    <img  class="article__image" src="/public/img/Montagne de cocaine.png" alt="cocaine">
+
+    <p>La phrase reflète également les thèmes universels de la chute et de l'illusion de grandeur présents tout au long du film. Tony Montana est le reflet d'une société obsédée par la richesse et le pouvoir, prête à tout pour atteindre ses objectifs, même au prix de son intégrité personnelle et de sa moralité. La réplique souligne le conflit intérieur de Tony entre ses aspirations nobles et son implication dans un monde corrompu et impitoyable.</p>
+
+    <p>Cette phrase est également emblématique de la dynamique tragique du personnage principal, soulignant la lutte constante de Tony pour s'élever au-dessus de sa condition et transcender les limitations de son environnement. Elle témoigne de la complexité émotionnelle du protagoniste, qui oscille entre l'espoir et le désespoir, l'ambition et la désillusion, la confiance et la peur.</p>
+
+    <img class="article__image" src="/public/img/Fusillade.png" alt="fusillade">
+
+    <p>En s'attachant à cette réplique, le public est confronté à une méditation profonde sur la nature humaine et les conséquences désastreuses de la quête effrénée du pouvoir et de la richesse. Elle met en lumière les sacrifices personnels que l'on peut être amené à faire pour atteindre ses objectifs, ainsi que les dilemmes moraux auxquels tout individu peut être confronté en chemin.
+        La force de cette citation réside dans sa capacité à incarner les luttes internes et les aspirations universelles du protagoniste, offrant une réflexion profonde sur les thèmes de l'ambition, de la corruption et de la nature humaine. Elle témoigne de la capacité du film à captiver et à susciter la réflexion, laissant une empreinte durable dans la mémoire des spectateurs et faisant de "Scarface" bien plus qu'un simple film, mais une méditation saisissante sur les sombres recoins de l'âme humaine.
+        </p>
+
+        <p>Matthis Boreaniz MMI1/B1 :<a class="lien__mail" href="https://www.google.com/intl/fr/gmail/about/"> matthis.boreaniz@edu.univ-fcomte.fr</a></p>
+
+
+</main>
+
+<footer class="footer">
+    <a href="/fr/index.html"><img  class="footer__logo" src="/public/img/SCARINFO.svg" alt="logo"></a>
+    <p class="footer__reseaux">Réseaux</p>
+    <section class="footer__logos">
+    <a href="https://twitter.com/?logout=1704881941827"><img src="/public/img/X logo.svg" alt="X logo"></a>
+    <a href="https://discord.com"><img src="/public/img/Discord LOGO.svg" alt="Discord logo"></a>
+    <a href="https://www.instagram.com"><img src="/public/img/Insta Logo.svg" alt="Insta logo"></a>
+    </section>
+    <a href="/fr/autresProjets.html">
+        <p class="footer__autres">Autre Projets</p>
+    </a>
+    <a href="/fr/formulaire.html">
+        <p class="footer__message">Laisser un message</p>
+    </a>
+   <a class="footer__drapeau" href="#"><img src="/public/img/Drapeau GB.svg" alt="drapeau angleterre"></a>
+    <p class="footer__phrasemmi">Projet réalisé dans le cadre d’un exercice pédagogique
+        au département MMI de Montbéliard </p>
+    <a href="https://butmmi.thomasjeu.fr/#/"><img  class="footer__logommi"src="/public/img/logo mmi.svg" alt="logo mmi"></a>
+   
+</footer>
+</body>
+</html>

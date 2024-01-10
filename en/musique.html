@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article musique</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body x-data="{ menuIsOpen: false }" x-bind:class="{ 'no-scroll': menuIsOpen }" class="body">
+    <header class="header">
+        <a class="header__logo" href="/fr/index.html"><img src="/public/img/SCARINFO.svg" alt="logo du site "></a>
+        <section class="header__search">
+            <button arial-controls="maiNav" 
+      @click="menuIsOpen = ! menuIsOpen" 
+      class="header__menuBtn"
+      ><img src="/public/img/menu (1).svg" alt="logo du menu "></button>
+      <nav id="mainNav" 
+      x-show="menuIsOpen" 
+      x-transition.duration.800ms
+
+      class="menu"
+      >
+    <section class="section__menu">
+  <h2  class="section__menu-title">à propos</h2>
+  <ul class="section__menu-list">
+    <li  class="section__menu-item"><a href="/fr/film.html">Tony Montana au cinéma</a></li>
+    <li class="section__menu-item"><a href="/fr/real.html">De Palma et le cinéma</a></li>
+    <li class="section__menu-item"><a href="/fr/replique.html">“J’ai des mains faites pour l’or”</a></li>
+    <li class="section__menu-item"><a href="/fr/musique.html">Scarface en musique</a></li>
+    <li class="section__menu-item"><a href="/fr/livre.html">L’origine de Scarface</a></li>
+  </ul>
+
+  <h2 class="section__menu-title">mais aussi</h2>
+
+  <ul class="section__menu-list">
+    <li  class="section__menu-item"><a href="/fr/filmscommun.html">La filmographie de De Palma</a></li>
+    <li class="section__menu-item"><a href="/fr/livrescommuns.html">De la littérature en plus</a></li>
+    <li class="section__menu-item"><a href="/fr/apropos.html">À Propos de moi</a></li>
+  </ul>
+    
+
+
+    </section>
+      </nav>
+    </header>
+
+       <main class="main">
+        <h1 class="titrePrincipal">Une musique qui reste en tête pour un film qui reste en tête</h1>
+        <h2 class="chapo">La musique "Push It to the Limit" interprétée par Paul Engemann est devenue emblématique grâce à son association avec le film légendaire "Scarface"</h2>
+       
+        <figure>
+            <img class="imagePrincipale" src="/public/img/Push It To The Limits cover.png" alt="image musique">
+        </figure>
+        <p>1ère de couverture de la musique de Paul Engemann “Push It To The Limits” (1983)</p>
+        
+        <span class="infos__publication">Publié par Matthis Boreaniz (Montbéliard) le 24/10/2023</span>
+       
+        <section class="lecture">
+            <img class="lecture__logo" src="/public/img/Logo pendule.svg" alt="logo pendule">
+            <p class="lecture temps">Lecture : 5 minutes</p>
+        </section>
+    <p>
+        Sorti en 1983, "Scarface" réalisé par Brian De Palma a marqué les esprits par son exploration sans compromis du monde sombre du crime organisé. La chanson de Paul Engemann, qui accompagne brillamment l'ascension vertigineuse du personnage principal, Tony Montana, résonne avec les thèmes de puissance, de succès et de lutte incessante pour atteindre le sommet.
+Le morceau lui-même, avec ses riffs énergiques et son rythme palpitant, reflète l'ambiance effrénée du film, créant une synergie frappante entre l'audio et le visuel. La chanson capture l'essence de la détermination acharnée du protagoniste à surmonter les obstacles et à réaliser ses rêves, même au prix de sa propre destruction.
+    </p>
+    
+    <img  class="article__image" src="/public/img/Image du film (gang).png" alt="image gang">
+
+    <p>L'expression "Push It to the Limit" devient ainsi une métaphore puissante de la poursuite frénétique du pouvoir, de la richesse et du statut, même si cela signifie franchir les limites morales et personnelles. La musique évoque un sentiment d'urgence et d'ambition dévorante, accentuant le caractère effréné et souvent brutal de l'ascension de Tony Montana dans le monde impitoyable du crime.</p>
+    <p>La chanson "Push It to the Limit" s'intègre parfaitement dans l'esthétique des années 80, avec ses synthétiseurs vibrants et son refrain entraînant, ce qui lui confère une qualité intemporelle qui continue de résonner avec les auditeurs d'aujourd'hui. L'énergie brute et l'audace de la musique renforcent l'intensité dramatique du film, créant une expérience immersive pour le spectateur.</p>
+    <p>Lorsque la chanson est utilisée dans des moments clés du film, elle amplifie la tension narrative et souligne les choix désespérés auxquels le protagoniste est confronté. Elle devient ainsi un élément crucial de l'atmosphère du film, accentuant les moments de confrontation, de prise de risque et d'ultimes décisions qui déterminent le destin tragique de Tony Montana..</p>
+
+    <img class="article__image" src="/public/img/Image telephone rire.png" alt="telephone rire">
+
+    <p>En se penchant sur l'impact culturel de la chanson, on constate qu'elle est devenue un symbole de détermination et de persévérance, souvent citée comme une source d'inspiration dans la culture populaire. Sa présence dans "Scarface" a contribué à forger l'identité musicale du film et à renforcer son statut emblématique dans l'histoire du cinéma. <br>
+
+       <br> En résumé, la musique "Push It to the Limit" de Paul Engemann joue un rôle essentiel dans l'expérience cinématographique immersive de "Scarface". Elle symbolise l'ambition dévorante du personnage principal, tout en soulignant les thèmes centraux du film tels que le pouvoir, la corruption et la lutte pour la survie. Son association avec le film a contribué à façonner la mémoire collective du public, laissant une empreinte indélébile dans l'univers du cinéma et de la musique des années 80</p>
+
+        <p>Matthis Boreaniz MMI1/B1 :<a class="lien__mail" href="https://www.google.com/intl/fr/gmail/about/"> matthis.boreaniz@edu.univ-fcomte.fr</a></p>
+
+
+</main>
+
+<footer class="footer">
+    <a href="/fr/index.html"><img  class="footer__logo" src="/public/img/SCARINFO.svg" alt="logo"></a>
+    <p class="footer__reseaux">Réseaux</p>
+    <section class="footer__logos">
+    <a href="https://twitter.com/?logout=1704881941827"><img src="/public/img/X logo.svg" alt="X logo"></a>
+    <a href="https://discord.com"><img src="/public/img/Discord LOGO.svg" alt="Discord logo"></a>
+    <a href="https://www.instagram.com"><img src="/public/img/Insta Logo.svg" alt="Insta logo"></a>
+    </section>
+    <a href="/fr/autresProjets.html">
+        <p class="footer__autres">Autre Projets</p>
+    </a>
+    <a href="/fr/formulaire.html">
+        <p class="footer__message">Laisser un message</p>
+    </a>
+   <a class="footer__drapeau" href="#"><img src="/public/img/Drapeau GB.svg" alt="drapeau angleterre"></a>
+    <p class="footer__phrasemmi">Projet réalisé dans le cadre d’un exercice pédagogique
+        au département MMI de Montbéliard </p>
+    <a href="https://butmmi.thomasjeu.fr/#/"><img  class="footer__logommi"src="/public/img/logo mmi.svg" alt="logo mmi"></a>
+   
+</footer>
+</body>
+</html>
